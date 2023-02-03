@@ -1,10 +1,10 @@
 const quizData = [
   {
-    question: "Türkiye’de en fazla öğrenciye sahip üniversite hangisidir?",
-    a: "Anadolu Üniversitesi",
-    b: "İstanbul Üniversitesi",
-    c: "Atatürk Üniversitesi",
-    correct: "a",
+    question: "como é chamada as versões do linux?",
+    a: "distros torvalds",
+    b: "distros linux",
+    c: "versões linux",
+    correct: "distro linux",
   }, {
     question: "Devlet üniversiteleri genel memnuniyet sıralamasında en üst sırada hangi üniversite yer alıyor?",
     a: "Ege Üniversitesi",
