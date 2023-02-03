@@ -4,43 +4,43 @@ const quizData = [
     a: "distros torvalds",
     b: "distros linux",
     c: "versões linux",
-    correct: "distro linux",
+    correct: "c",
   }, {
     question: "quem foi linux torvalds?",
     a: "ativista ambiental",
     b: "programador",
     c: "cientista da computação",
-    correct: "cientista da computação",
+    correct: "c",
   } , {
     question: "quem desenvolveu o kernell do linux?",
     a: "linux torvalds e contribudores",
     b: "linux torvalds",
     c: "linux torvalds e richard stallman",
-    correct: "linux torvalds e contribudores",
+    correct: "a",
   } , {
-    question: "Vakıf üniversiteleri arasında en çok öğrenciye sahip kurum hangisidir?",
-    a: "İstanbul Gelişim Üniversitesi",
-    b: "İstanbul Aydın Üniversitesi",
-    c: "Nişantaşı Üniversitesi",
+    question: "quantas distro linux existem?",
+    a: "nenhuma",
+    b: "não sei",
+    c: "200 distro linux",
+    correct: "a",
+  } , {
+    question: "linux é um kernel ou sistema operacional?",
+    a: "kernel",
+    b: "sistema aberto",
+    c: "sistema operacional",
+    correct: "a",
+  } , {
+    question: "quais são os tipos de memória em um kernel linux?",
+    a: "memória livre",
+    b: "memória ram",
+    c: "não sei",
     correct: "b",
   } , {
-    question: "Devlet üniversiteleri arasında en çok doktora yapan öğrenci sayısına sahip kurum hangisidir?",
-    a: "Ankara Üniversitesi",
-    b: "Boğaziçi Üniversitesi",
-    c: "Marmara Üniversitesi",
-    correct: "a",
-  } , {
-    question: "Türkiye’deki en pahalı vakıf üniversitesi hangisidir?",
-    a: "Koç Üniversitesi",
-    b: "Sabancı Üniversitesi",
-    c: "Özyeğin Üniversitesi",
-    correct: "a",
-  } , {
-    question: "Devlet üniversiteleri genel memnuniyet sıralamasında en sonda hangi üniversite yer alıyordur?",
-    a: "Bayburt Üniversitesi",
-    b: "Hakkari Üniversitesi",
-    c: "Ankara Müzik ve Güzel Sanatlar Üniversitesi",
-    correct: "c",
+    question: "linux torvalds é academico de qual universidade?",
+    a: "japan",
+    b: "estados unidos",
+    c: "suécia",
+    correct: "b",
   }
 ];
 
@@ -103,7 +103,7 @@ $("#submit").click(function() {
                 quiz.innerHTML = `
                 <h2>${score}/${quizData.length} pontuação final. </h2>
 
-                <button onclick="location.reload()">Tekrar dene.</button>
+                <button onclick="location.reload()">voltar ao jogo guiafoca-quiz</button>
             `;
         }
     }
