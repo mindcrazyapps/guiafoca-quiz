@@ -101,7 +101,7 @@ $("#submit").click(function() {
             loadQuiz();
         } else {
                 quiz.innerHTML = `
-                <h2>${score}/${quizData.length} doğru cevap.</h2>
+                <h2>${score}/${quizData.length} pontuação final. </h2>
 
                 <button onclick="location.reload()">Tekrar dene.</button>
             `;
