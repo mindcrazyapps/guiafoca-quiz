@@ -1,7 +1,10 @@
 <img src="https://avatars.githubusercontent.com/u/16518820?s=200&v=4" width="100px"/>
 
-# guiafoca-quiz
+## guiafoca-quiz
 quiz de pergunta e resposta baseado no guiafoca
+
+## screenshot
+![image](https://user-images.githubusercontent.com/123137817/216788165-5b05877d-de2f-46b0-80ea-44c9a9ba5cf0.png)
 
 ## About NextExperience
 
